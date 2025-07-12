@@ -65,28 +65,30 @@
         margin-bottom: 37px;
     }
 
-    .action {
-        display: flex;
-        justify-content: space-between;
-        padding: 130px;
-    }
+   .action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
 
     .action-content {
-        margin: 0 0 0 159px;
+        flex: 1;
     }
 
     .Title {
         font-family: "Raleway", sans-serif;
         font-size: 42;
         font-weight: bold;
-        text-align: center;
+        text-align: left;
         margin-bottom: 37px;
     }
 
     .Sub-title {
         font-family: "Raleway", sans-serif;
         font-size: 24;
-        text-align: center;
+        text-align: left;
         color: #252432;
         opacity: 0.5;
     }
@@ -107,6 +109,7 @@
 
     .Webflow-profile-pic {
         margin-right: 0 141px 0 0;
+        border-radius: 50px;
     }
 
     /* .banner {
@@ -198,9 +201,11 @@
     }
 
     .about {
-        border-radius: 10px;
+        border-radius: 40px;
         padding: 50px 150px;
         text-align: center;
+        border-style: solid;
+        border-color: black;
 
     }
 
@@ -233,7 +238,7 @@
 
     .item-description {
         font-weight: 16px;
-        font-weight: 500px;
+        font-weight: 500;
         color: #000000;
         opacity: .5;
         margin: 0;
