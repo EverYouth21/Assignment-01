@@ -28,15 +28,16 @@
     .Sign-up-button {
         background-color: #4E47FF;
         font-family: "Raleway", sans-serif;
-        font-optical-sizing: 500;
+        font-size: 16px;
         font-weight: bold;
-        font-style: 700;
+        gap: 10px;
         color: white;
         border: none;
-        border-radius: 5px;
+        border-radius: 10px;
         width: 132px;
-        height: 36px;
+        height: 48 px;
         margin-right: 215px;
+        padding: 12px 36px;
         /* margin: 50px 1191px 0 150px; */
     }
 
@@ -48,9 +49,10 @@
         font-style: 700;
         color: white;
         border: none;
-        border-radius: 5px;
+        border-radius: 10px;
         width: 174px;
-        height: 36px;
+        height: 48px;
+        padding: 12px 36px;
         margin: 37px 633px 152px 633px;
         margin-top: 0;
         /* margin: 50px 1191px 0 150px; */
@@ -82,6 +84,8 @@
         font-size: 42;
         font-weight: bold;
         text-align: left;
+        height: 49px;
+        width: 517px;
         margin-bottom: 37px;
     }
 
@@ -91,17 +95,18 @@
         text-align: left;
         color: #252432;
         opacity: 0.5;
+        width: 517px;
+        height: 60px;
     }
 
     .launch {
         background-color: #4E47FF;
         font-family: "Raleway", sans-serif;
-        font-optical-sizing: 500;
-        font-weight: bold;
-        font-style: 700;
+        font-size: 16px;
+        font-weight: 700px;
         color: white;
         border: none;
-        border-radius: 5px;
+        border-radius: 10px;
         width: 229px;
         height: 48px;
 
@@ -109,33 +114,11 @@
 
     .Webflow-profile-pic {
         margin-right: 0 141px 0 0;
+        width: 403px;
+        height: 328px;
         border-radius: 50px;
     }
 
-    /* .banner {
- background-image: url(../Hero-bg.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-
-  height: 600px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-  text-align: center;
-  color: white;
-  padding: 20px;
-   background-size: auto;
-   background-repeat: no-repeat;
-} */
-    /* .bk-img{
-    height: 400px;
-    padding: 30px 40px;
-    background-image: url(../Hero-bg.png);
-    text-align: center;
-} */
     nav {
         display: flex;
         align-items: center;
@@ -201,8 +184,8 @@
     }
 
     .about {
-        border-radius: 40px;
-        padding: 50px 150px;
+        border-radius: 24px;
+        padding: 80px 50px;
         text-align: center;
         border-style: solid;
         border-color: black;
@@ -301,3 +284,141 @@
         padding: 60px;
         box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06)
     }
+
+    /* Footer */
+    footer {
+        padding: 130px 230px;
+        display: flex;
+        gap: 100px;
+    }
+
+    .footer-column {
+        width: 50%;
+    }
+
+    footer input[type="text"],
+    footer input[type="email"],
+    footer textarea {
+        height: 64px;
+        border-radius: 5px;
+        background-color: white;
+        display: block;
+        width: 100%;
+        padding: 10px 20px;
+        margin-bottom: 24px;
+        border: none;
+    }
+
+    .section-title-footer {
+        font-family: "Inter", sans-serif;
+        font-size: 97px;
+        color: #000000;
+        padding: 20px;
+        width: 528px;
+        height: 232px;
+    }
+
+    .legend {
+        font-family: "Inter", sans-serif;
+        font-size: 18px;
+        color: #000000;
+        padding: 10px;
+    }
+
+    .legend1 {
+        font-family: "Inter", sans-serif;
+        font-size: 20px;
+        color: #000000;
+        opacity: .50;
+    }
+
+    .btn-get-in-touch {
+        background-color: #4E47FF;
+        font-family: "Raleway", sans-serif;
+        font-weight: bold;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        padding: 19px;
+        width: 497px;
+        height: 62px;
+    }
+
+.forms {
+    width: 497px;
+    height: 167px;
+}
+
+.box1 {
+    width: 497px;
+    height: 102px;
+    gap: 10px;
+}
+
+.box2 {
+    width: 497px;
+    height: 102px;
+    gap: 10px;
+}
+
+.box3 {
+    width: 497px;
+    height: 167px;
+    gap: 10px;
+}
+
+.footer {
+    background-color: #f9f9f9;
+    padding: 60px 20px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.footer-logo {
+    font-size: 48px;
+    color: #4f46e5;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.footer-description {
+    max-width: 600px;
+    margin: 0 auto 30px;
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.footer-nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #888;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.footer-nav a:hover {
+    color: #4f46e5;
+}
+
+.footer {
+    background-color: #f9f9f9;
+    padding: 60px 20px;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 700px;
+    width: 100%;
+}
+button:hover {
+    background-color: #f2e607;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
