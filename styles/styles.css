@@ -5,7 +5,7 @@
     }
 
     body {
-        background-image: url(../Hero-bg.png);
+        background-image: url(/Assets/Hero-bg.png);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -36,10 +36,11 @@
         border-radius: 10px;
         width: 132px;
         height: 48 px;
-        margin-right: 215px;
+        margin-right: 159px;
         padding: 12px 36px;
         /* margin: 50px 1191px 0 150px; */
     }
+
 
     .Stay-Focused-button {
         background-color: #4E47FF;
@@ -344,81 +345,82 @@
         height: 62px;
     }
 
-.forms {
-    width: 497px;
-    height: 167px;
-}
+    .forms {
+        width: 497px;
+        height: 167px;
+    }
 
-.box1 {
-    width: 497px;
-    height: 102px;
-    gap: 10px;
-}
+    .box1 {
+        width: 497px;
+        height: 102px;
+        gap: 10px;
+    }
 
-.box2 {
-    width: 497px;
-    height: 102px;
-    gap: 10px;
-}
+    .box2 {
+        width: 497px;
+        height: 102px;
+        gap: 10px;
+    }
 
-.box3 {
-    width: 497px;
-    height: 167px;
-    gap: 10px;
-}
+    .box3 {
+        width: 497px;
+        height: 167px;
+        gap: 10px;
+    }
 
-.footer {
-    background-color: #f9f9f9;
-    padding: 60px 20px;
-    text-align: center;
-    font-family: 'Inter', sans-serif;
-}
+    .footer {
+        background-color: #f9f9f9;
+        padding: 60px 20px;
+        text-align: center;
+        font-family: 'Inter', sans-serif;
+    }
 
-.footer-logo {
-    font-size: 48px;
-    color: #4f46e5;
-    font-weight: 800;
-    margin-bottom: 20px;
-}
+    .footer-logo {
+        font-size: 48px;
+        color: #4f46e5;
+        font-weight: 800;
+        margin-bottom: 20px;
+    }
 
-.footer-description {
-    max-width: 600px;
-    margin: 0 auto 30px;
-    color: #666;
-    font-size: 16px;
-    line-height: 1.5;
-}
+    .footer-description {
+        max-width: 600px;
+        margin: 0 auto 30px;
+        color: #666;
+        font-size: 16px;
+        line-height: 1.5;
+    }
 
-.footer-nav a {
-    margin: 0 15px;
-    text-decoration: none;
-    color: #888;
-    font-size: 14px;
-    transition: color 0.3s ease;
-}
+    .footer-nav a {
+        margin: 0 15px;
+        text-decoration: none;
+        color: #888;
+        font-size: 14px;
+        transition: color 0.3s ease;
+    }
 
-.footer-nav a:hover {
-    color: #4f46e5;
-}
+    .footer-nav a:hover {
+        color: #4f46e5;
+    }
 
-.footer {
-    background-color: #f9f9f9;
-    padding: 60px 20px;
-    font-family: 'Inter', sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
+    .footer {
+        background-color: #f9f9f9;
+        padding: 60px 20px;
+        font-family: 'Inter', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
 
-.footer-content {
-    max-width: 700px;
-    width: 100%;
-}
-button:hover {
-    background-color: #f2e607;
-    transform: scale(1.05);
-    transition: all 0.3s ease;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-    cursor: pointer;
-}
+    .footer-content {
+        max-width: 700px;
+        width: 100%;
+    }
+
+    button:hover {
+        background-color: #f2e607;
+        transform: scale(1.05);
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        cursor: pointer;
+    }
